@@ -1,0 +1,41 @@
+.Home{
+    margin-top: 2rem;
+    width:100%;
+    background-color: red;
+    height:100vh;
+}
+
+
+
+
+.tilegrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 16px; /* Space between grid items */
+    padding: 16px; /* Padding around the grid */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) { /* For tablets and smaller devices */
+    .tilegrid {
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+    }
+}
+
+@media (max-width: 480px) { /* For mobile devices */
+    .tilegrid {
+        grid-template-columns: 1fr; /* One column */
+    }
+}
+
+/* Optional: Style for grid items */
+.tilegrid .tile {
+    background-color: #282c34; /* Background color for grid items */
+    border: 1px solid #61dafb; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Inner padding */
+    color: #ffffff; /* Text color */
+    text-align: center; /* Center text */
+}
+
+
