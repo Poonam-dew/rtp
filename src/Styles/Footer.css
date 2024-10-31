@@ -1,0 +1,165 @@
+.footer{
+    width:100%;
+ 
+  background-color: black;
+  display:flex;
+  
+  justify-content: center;
+  align-items:center;
+  color:white;
+  gap:2rem;
+ 
+  padding:1rem;
+   
+}
+.leftFoot{
+    padding:1rem;
+    width:46%;
+   
+    display:flex;
+    
+     
+}
+.footLinks{
+  width:40%;
+  
+    display:flex;
+    flex-direction: column;
+   
+}
+.foot-link{
+    text-decoration: none;
+    color: white;
+}
+.foot-link:hover {
+    
+    color: blue;
+  }
+.links{
+    display:flex;
+    flex-direction: column;
+    color: white;
+    gap:0.1rem;
+    
+}
+.address{
+    
+    padding:0.5rem;
+    width:60%;
+}
+.address-box{
+    display:flex;
+    flex-direction: column;
+    gap:0.3rem;
+}
+.a{
+    text-decoration: none;
+    color:white;
+}
+.add{
+   
+    display:flex;
+    gap:0.5rem;
+    align-items: center;
+}
+.rightFoot{
+    padding:1rem;
+    width:46%;
+   
+    
+    display:flex;
+   
+
+    
+}
+.form-container {
+    max-width: 90%;
+    width: 100%;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .input, .textarea {
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .textarea {
+    resize: vertical;
+  }
+  
+  .button {
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0663c1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer{
+      flex-direction:column;
+      
+    }
+    .leftFoot{
+    text-align: center;
+          width:90%;
+     
+      justify-content: space-between;
+      align-items: end;
+      
+       
+  }
+  .footLinks{
+    width:50%;
+        
+     display:flex;
+      flex-direction: column;
+     
+  }
+ 
+  .links{
+      display:flex;
+      flex-direction: column;
+      color: white;
+      gap:0.1rem;
+      
+  }
+  .address{
+      text-align: center;
+      padding:0.5rem;
+      width:50%;
+  }
+  .address-box{
+    align-items: center;
+      display:flex;
+      flex-direction: column;
+      gap:0.3rem;
+  }
+ 
+ 
+  .rightFoot{
+      padding:1rem;
+      width:86%;
+     
+      
+      display:flex;
+     
+  
+      
+  }
+  }

@@ -1,4 +1,6 @@
 import Navbar from './Components/Navbar.js'
+import Footer from './Components/Footer.js'
+
 import MyCarousel from './Components/Carousel.js';
 import './App.css';
 import About from './Pages/About.js';
@@ -18,6 +20,7 @@ function App() {
         <Route path="/about" element={<About/>}/>   
                 
        </Routes>
+       <Footer/>
        
        
 

@@ -1,41 +1,42 @@
 .Home{
-    margin-top: 2rem;
+    padding-top:15rem;
     width:100%;
-    background-color: red;
-    height:100vh;
+   color:white;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../Assets/rtpB.png'); /* Replace with the path to your image */
+    background-size: cover; /* Scales the image to cover the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    
+}
+.homeContainer{
+    
+    max-width:85%;
+    margin:0 auto;
+    gap:1rem;
+   
 }
 
 
-
-
-.tilegrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
-    gap: 16px; /* Space between grid items */
-    padding: 16px; /* Padding around the grid */
+.homeContentBox{
+    margin-top: 2rem;
+  
+   border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.179);
+    padding:1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) { /* For tablets and smaller devices */
-    .tilegrid {
-        grid-template-columns: repeat(2, 1fr); /* Two columns */
-    }
+.homeContentBox h1{
+    font-weight: bolder;
+    font-size: 2.3rem;
+margin-bottom: 2rem;
 }
-
-@media (max-width: 480px) { /* For mobile devices */
-    .tilegrid {
-        grid-template-columns: 1fr; /* One column */
-    }
-}
-
-/* Optional: Style for grid items */
-.tilegrid .tile {
-    background-color: #282c34; /* Background color for grid items */
-    border: 1px solid #61dafb; /* Border color */
-    border-radius: 8px; /* Rounded corners */
-    padding: 16px; /* Inner padding */
-    color: #ffffff; /* Text color */
-    text-align: center; /* Center text */
+.homePara{
+    font-size: 1.1rem;
+    
 }
 
 

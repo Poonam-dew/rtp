@@ -6,34 +6,34 @@ const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   return (
-    <nav className="navbar">
+    <n className="navbar">
       <div className="left-section">
        <img  className="logo" src={radioLogo}/>
         <h1 className="navbar-heading">Radio Astronomy</h1>
       </div>
 
       <div className={isMobile ? "right-section-mobile" : "right-section"}>
-      {/* <NavLink to="/" className="nav-link">Home</NavLink>
-         <NavLink to="/menu" className="nav-link">Menu</NavLink> */}
-         <Link to="/" className="nav-link">Home</Link>
-         <Link to="/about" className="nav-link">About</Link>
-         <Link to="/scientificHistory" className="nav-link">Scientific History</Link>
-         <Link to="/howItWorks" className="nav-link">How It Works</Link>
-         <Link to="/telescopesWeHave" className="nav-link">Telescopes We Have</Link>
-         <Link to="/workTimeLine" className="nav-link">Work Time Line</Link>
-         <Link to="/resultsAndPublication" className="nav-link">Results and Publications</Link>
-         <Link to="/events" className="nav-link">Events</Link>
-         <Link to="/team" className="nav-link">Team</Link>
+      {/* <NavLink to="/" className="n-link">Home</NavLink>
+         <NavLink to="/menu" className="n-link">Menu</NavLink> */}
+         <NavLink to="/" className="n-link "  >Home</NavLink>
+         <NavLink to="/about" className="n-link" >About</NavLink>
+         <NavLink to="/scientificHistory" className="n-link" >Scientific History</NavLink>
+         <NavLink to="/howItWorks" className="n-link" >How It Works</NavLink>
+         <NavLink to="/telescopesWeHave" className="n-link" >Telescopes We Have</NavLink>
+         <NavLink to="/workTimeLine" className="n-link" >Work Time Line</NavLink>
+         <NavLink to="/resultsAndPublication" className="n-link" >Results and Publications</NavLink>
+         <NavLink to="/events" className="n-link" >Events</NavLink>
+         <NavLink to="/team" className="n-link" >Team</NavLink>
 
 
-         {/* <Link to="/contact" className="nav-link">Contact</NavLink> */}
+         {/* <NavLink to="/contact" className="n-link">Contact</NavLink> */}
         
       </div>
 
       <button className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>
         {isMobile ? <i className="fas fa-times"></i> : <i className="fas fa-bars"></i>}
       </button>
-    </nav>
+    </n>
   );
 };
 
