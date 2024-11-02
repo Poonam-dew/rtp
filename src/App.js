@@ -8,6 +8,7 @@ import Home from './Pages/Home.js';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import TelescopeWeHave from './Pages/TelescopesWeHave.js';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
        
        <Routes>
        <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>   
+        <Route path="/about" element={<About/>}/> 
+        <Route path="/telescopesWeHave" element={<TelescopeWeHave/>}/>   
                 
        </Routes>
        <Footer/>
