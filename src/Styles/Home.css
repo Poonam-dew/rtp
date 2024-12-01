@@ -22,9 +22,9 @@
 
 .homeContentBox{
     margin-top: 2rem;
-  
+  text-align: center;
    border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.179);
+  background-color: rgba(255, 255, 255, 0.136);
     padding:1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

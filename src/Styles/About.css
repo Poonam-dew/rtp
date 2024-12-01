@@ -39,4 +39,9 @@ margin-bottom: 2rem;
     
 }
 
-
+@media screen and (max-width: 508px) {
+    .aboutPara{
+        font-size: 0.9rem;
+        
+    }
+}
