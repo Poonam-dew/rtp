@@ -31,7 +31,7 @@ function App() {
         <Route path="/team" element={<TeamPage/>}/>   
         <Route path="/events" element={<EventPage/>}/>
         <Route path="/resultsAndPublication" element={<ResultsPublications/>}/>
-                
+        <Route path="/scientificHistory" element={<ScientificHistory/>}/>   
        </Routes>
        <Footer/>
        
