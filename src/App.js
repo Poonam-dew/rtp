@@ -14,6 +14,7 @@ import ScientificHistory from './Pages/ScientificHistory.js';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import TelescopeWeHave from './Pages/TelescopesWeHave.js';
 
 function App() {
   return (
@@ -24,12 +25,13 @@ function App() {
        
        <Routes>
        <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="/scientificHistory" element={<ScientificHistory/>}/>    
+        
+        <Route path="/telescopesWeHave" element={<TelescopeWeHave/>}/>   
+        <Route path="/about" element={<About/>}/>   
         <Route path="/team" element={<TeamPage/>}/>   
         <Route path="/events" element={<EventPage/>}/>
         <Route path="/resultsAndPublication" element={<ResultsPublications/>}/>
-                
+        <Route path="/scientificHistory" element={<ScientificHistory/>}/>   
        </Routes>
        <Footer/>
        
